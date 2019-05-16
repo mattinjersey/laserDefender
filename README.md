@@ -6,12 +6,15 @@ The way that the machine learning will learn is to play the game over and over a
 
 The underlying algorithm it will use is PPO learning, a type of reinforcement learning.
 
-I wrote the game in Unity which is a game engine, and I've included the Unity code. 
-I took a course in machine learning in Udemy, and in that course, we made the Space Shooter game.
-Here is a link to the _Udemy_ course: [Unity Course](https://www.udemy.com/unitycourse/). Great course and I recommend it.
+## What this repo contains
+This repo contains a Unity game, called Space Shooter. The game is designed to be controlled by machine learning. So the machine learning can control the player to maximize the score.
+The repo also contains code that I've written to help with this machine learning.
 
-The Unity code that you will find in this repo is modified. I added an agent to the code that plays the game. The agent plays the game 
-and also it reports the observations to the brain. Also I made the enemies a little more challenging. There is always an enemy right above the player!
+## Credit and Links.
+The Space Shooter game is derived from a game in a course that I took. Here is a link to the _Udemy_ course: [Unity Course](https://www.udemy.com/unitycourse/). Great course and I recommend it!
+I've modified the game so that it can communicate with Python. This enables us to control the player and use machine learning to get a high score. Also I modified the game to make it more challenging so that the machine learning wouldn't find a trivial solution.
+
+To train the game with machine learning, you will need to install ML agents: 
 
 ## Instructions
 You will need Unity on your computer. Go to the Unity website to download and install it, for free.
