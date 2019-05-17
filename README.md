@@ -31,5 +31,9 @@ I also tried the reinforcement library TF Agents:
 You will need Unity on your computer. Go to the Unity website to download and install it, for free.
 Now you should be able to start and play the Unity game in the repo. If you have some problems, you may need to go to the GitHub/MLagents to install MLagents.
 MLagents is a great system that enables Unity to communicate with python.
+Also install tfAgents: GitHub/TFagents
+
+## results
+Well my results were not great. I did not succeed in training these agents to win the video game. But if you try it, let me know, I would like to hear it!
 
 
